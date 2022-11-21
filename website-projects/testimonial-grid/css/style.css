@@ -663,18 +663,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-duration: 150ms;
 }
 
-.line-clamp-1 {
+.line-clamp-6 {
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 1;
-}
-
-.line-clamp-2 {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 6;
 }
 
 .line-clamp-5 {
@@ -682,13 +675,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 5;
-}
-
-.line-clamp-6 {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 6;
 }
 
 @media (min-width: 768px) {
