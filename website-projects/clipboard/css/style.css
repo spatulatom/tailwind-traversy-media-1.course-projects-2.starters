@@ -636,6 +636,10 @@ h5 {
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
 
+.bg-header-desktop {
+  background-image: url('../images/bg-header-desktop.png');
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -743,7 +747,6 @@ h5 {
 }
 
 body {
-  background-image: url('../images/bg-header-desktop.png');
   background-repeat: no-repeat;
   background-size: contain;
 }

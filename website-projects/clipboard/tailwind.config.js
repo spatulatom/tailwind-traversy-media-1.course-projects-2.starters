@@ -17,6 +17,10 @@ module.exports = {
       fontFamily: {
         sans: ['Bai Jamjuree', 'sans-serif'],
       },
+      backgroundImage: {
+        'header-desktop': "url('../images/bg-header-desktop.png')",
+      }
+      
     },
   },
   plugins: [],
