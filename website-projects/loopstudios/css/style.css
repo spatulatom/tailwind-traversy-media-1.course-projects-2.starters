@@ -659,10 +659,6 @@ h5 {
   max-width: 28rem;
 }
 
-.flex-1 {
-  flex: 1 1 0%;
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -976,18 +972,6 @@ h5 {
     right: 0px;
   }
 
-  .md\:top-0 {
-    top: 0px;
-  }
-
-  .md\:bottom-0 {
-    bottom: 0px;
-  }
-
-  .md\:bottom-10 {
-    bottom: 2.5rem;
-  }
-
   .md\:m-32 {
     margin: 8rem;
   }
@@ -1069,13 +1053,6 @@ h5 {
   .md\:py-20 {
     padding-top: 5rem;
     padding-bottom: 5rem;
-  }
-
-  @media (min-width: 768px) {
-    .md\:md\:py-20 {
-      padding-top: 5rem;
-      padding-bottom: 5rem;
-    }
   }
 
   .md\:pl-20 {
