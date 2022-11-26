@@ -617,10 +617,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-width: 32rem;
 }
 
-.max-w-5xl {
-  max-width: 64rem;
-}
-
 .max-w-2xl {
   max-width: 42rem;
 }
@@ -659,12 +655,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-between {
   justify-content: space-between;
-}
-
-.space-x-20 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(5rem * var(--tw-space-x-reverse));
-  margin-left: calc(5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-x-10 > :not([hidden]) ~ :not([hidden]) {
